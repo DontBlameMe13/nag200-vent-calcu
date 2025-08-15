@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora NAG-200 Ventilación</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
+</head>
+<body>
+  <div class="app">
+    <h1>Calculadora de Rejilla de Ventilación (NAG-200)</h1>
+    <label>Ingrese kcal/h del artefacto:</label>
+    <input type="number" id="kcal" placeholder="Ej: 12000" />
+    <select id="tipo">
+      <option value="sin">Sin conducto</option>
+      <option value="con">Con conducto</option>
+    </select>
+    <button onclick="calcular()">Calcular</button>
+    <div id="resultado"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
