@@ -1,18 +1,10 @@
 {
-  "name": "Calculadora NAG-200 Ventilación",
-  "short_name": "NAG200Calc",
-  "start_url": "./index.html",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#2196f3",
-  "icons": [{
-    "src": "icons/icon-192.png",
-    "sizes": "192x192",
-    "type": "image/png"
-  },
-  {
-    "src": "icons/icon-512.png",
-    "sizes": "512x512",
-    "type": "image/png"
-  }]
+  "manifest_version": 3,
+  "name": "Calculadora NAG-200",
+  "version": "1.0",
+  "description": "Calculadora de rejilla de ventilación según norma NAG-200.",
+  "action": {
+    "default_popup": "popup.html"
+  }
 }
+Mejora del diseño de la calculadora NAG-200
